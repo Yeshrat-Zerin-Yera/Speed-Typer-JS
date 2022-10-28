@@ -34,7 +34,7 @@ body {
 }
 
 #display {
-  height: 100px;
+  min-height: 100px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -146,6 +146,7 @@ button {
   border-radius: 10px;
   border: 2px solid #9dffad;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 #histories {
@@ -188,6 +189,10 @@ button {
   .box-container {
     padding: 0 20px;
     width: 100%;
+  }
+
+  #display {
+    padding-left: 2rem;
   }
 
   #histories {
